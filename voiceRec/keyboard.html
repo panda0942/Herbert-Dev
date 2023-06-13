@@ -1,0 +1,94 @@
+<!DOCTYPE html> 
+<html>
+<head>
+     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="speakeazy.png">
+    <script src="https://kit.fontawesome.com/c06ed2667f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="keyboard/keyboard.css">
+  <title>Sign Language Keyboard</title>
+</head>
+<body>
+
+  <div id="preloader">
+    <div class="loader"></div>
+    <h1 class="name" style="font-weight: 300;">Speakeazy</h1>
+</div>
+<header>
+    <div>
+        <p style="color: #45a049;z-index:5; font-size: 27px; font-weight: 550; position: relative; right: -20px;">Speakeazy</p>
+    </div>
+    <button id="hamburger-menu"><i class="fa-solid fa-bars"
+            style="color: #45a049; position: relative; font-size:30px;"> </i></button>
+    <div class="dropdown-menu">
+        <ul style="z-index:2000;">
+            <li><a href="index.html">Home &#8987;</a></li>
+            <li><a href="speechless.html">Speech-To-Text/Text-To-Speech &#9989;</a></li>
+            <li><a href="keyboardkeys.html">Sign Language Interpreter &#9989;</a></li>
+            <li><a href="#">Sign Language Transcriber &#8987;</a></li>
+            <li><a href="#">Translator &#x274C;</a></li>
+            <li><a href="#">Voice Search &#x274C;</a></li>
+            <li><a href="#">Help &#x274C;</a></li>
+        </ul>
+    </div>
+</header>
+
+
+  <div class="change-direction">
+  <div id="keyboard">
+    <div id="keyspace">
+    <button id="theB"><img src="keyboard/A.png" class="keyboard-sign">A</button>
+    <button id="theB"><img src="keyboard/B.png" class="keyboard-sign">B</button>
+    <button id="theB"><img src="keyboard/C.png" class="keyboard-sign">C</button>
+    <button id="theB"><img src="keyboard/D.png" class="keyboard-sign">D</button>
+    <button id="theB"><img src="keyboard/E.png" class="keyboard-sign">E</button>
+    <button id="theB"><img src="keyboard/F.png" class="keyboard-sign">F</button>
+    </div>
+    <div id="keyspace">
+    <button id="theB"><img src="keyboard/G.png" class="keyboard-sign">G</button>
+    <button id="theB"><img src="keyboard/H.png" class="keyboard-sign">H</button>
+    <button id="theB"><img src="keyboard/I.png" class="keyboard-sign">I</button>
+    <button id="theB"><img src="keyboard/J.png" class="keyboard-sign">J</button>
+    <button id="theB"><img src="keyboard/K.png" class="keyboard-sign">K</button>
+    <button id="theB"><img src="keyboard/L.png" class="keyboard-sign">L</button>
+    </div>
+    <div id="keyspace">
+    <button id="theB"><img src="keyboard/M.png" class="keyboard-sign">M</button>
+    <button id="theB"><img src="keyboard/N.png" class="keyboard-sign">N</button>
+    <button id="theB"><img src="keyboard/O.png" class="keyboard-sign">O</button>
+    <button id="theB"><img src="keyboard/P.png" class="keyboard-sign">P</button>
+    <button id="theB"><img src="keyboard/Q.png" class="keyboard-sign">Q</button>
+    <button id="theB"><img src="keyboard/R.png" class="keyboard-sign">R</button>
+    </div>
+    <div id="keyspace">
+    <button id="theB"><img src="keyboard/S.png" class="keyboard-sign">S</button>
+    <button id="theB"><img src="keyboard/T.png" class="keyboard-sign">T</button>
+    <button id="theB"><img src="keyboard/U.png" class="keyboard-sign">U</button>
+    <button id="theB"><img src="keyboard/V.png" class="keyboard-sign">V</button>
+    <button id="theB"><img src="keyboard/W.png" class="keyboard-sign">W</button>
+    <button id="theB"><img src="keyboard/X.png" class="keyboard-sign">X</button>
+    </div>
+    <div id="keyspace">
+    <button id="theB"><img src="keyboard/Y.png" class="keyboard-sign">Y</button>
+    <button id="theB"><img src="keyboard/Z.png" class="keyboard-sign">Z</button>
+    <button id="theB"><img src="keyboard/space.jpg" class="keyboard-sign"> </button>
+    <button id="backspace"><p class="keyboard-sign"><i class="fa-sharp fa-solid fa-arrow-left"style="color:#45a049; font-size: 20px;"></i></p></button>
+    <!-- <button id="theB"><p class="keyboard-sign">.</p></button> -->
+    </div>
+  </div>
+  <div id="output1">
+    <div class="swap">
+    <input type="text" id="textInput" placeholder="Sign language interpreter...">
+    <div id="signLanguageOutput"></div>
+    </div>
+    <button id="output"><i class="fa-sharp fa-solid fa-microphone" style="color:#45a049; font-size: 30px; z-index:0;" ></i></button>
+  </div>
+
+
+
+  </div>
+  <script src="keyboard/keyboard.js"></script>
+</body>
+</html>

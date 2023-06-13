@@ -1,0 +1,25 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Speech to Sign Language </title>
+  <style>
+   
+  </style>
+</head>
+<body>
+  <div>
+    <button onclick="startRecording()">Start Recording</button>
+    <button onclick="stopRecording()">Stop Recording</button>
+  </div>
+  <div>
+    <textarea id="text-output" rows="5" cols="50" placeholder="Converted text will appear here..." readonly></textarea>
+  </div>
+  <div id="sign-language-output" style="display: flex; flex-direction: row;"></div>
+
+<script src="transcribe.js"></script>
+</body>
+</html>
+
